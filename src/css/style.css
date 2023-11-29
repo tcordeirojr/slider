@@ -1,0 +1,71 @@
+.imagem{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.seta {
+    display: flex;
+    width: 49px;
+    height: 79px;
+    position: absolute;
+}
+.avanco{
+    position:absolute;
+    right: 5vh;
+}
+.retorno{
+    position: absolute;
+    left: 5vh;
+}
+.quadro{
+    display: flex;
+    position: absolute;
+    left: 18vh;
+    width: 620px;
+    height: 700px;
+    background-color: white;
+    border-radius: 10px;
+}
+.info h1{
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    color: #000;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items:center;
+    height: 59px;
+    padding:65px 198px 80px 60px ;
+ 
+}
+.info p{
+    display: flex;
+    width: 500px;
+    height: 346px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 35px;
+    padding:204px 60px 50px 60px ;
+}
+.info a{
+    color: #C50000;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding:50px 411px 65px 60px;
+padding-bottom:65px;
+padding-left: 60px;
+
+}
