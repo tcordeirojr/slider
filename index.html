@@ -11,10 +11,21 @@
     <title>Exercício Slider</title>
 </head>
 <body>
-    <section class="imagem slider1">
-        <img src="src/imagens/imagem-slider1.png" alt="imagens de flores rosas com fundo azul">
-        <img class="seta retorno" onclick="setaderetorno()" src="src/imagens/seta esquerda opacity.png" alt="seta de retorno do slider anterior">
-        <img class="seta avanco" onclick="setadeavanco()" src="src/imagens/seta direita.png" alt="seta de avanço para o próximo slider">
+    <section class="slider"> 
+        <div class="carrossel">
+            <img class="imagem ativa" src="src/imagens/imagem-slider1.png" alt="imagens de flores rosas com fundo azul">
+            <img class="imagem" src="src/imagens/imagem-slider2.png" alt="flores amarelas com fundo azul">
+            <img class="imagem" src="src/imagens/imagem-slider3.png" alt="por do sol na floresta">
+            <img class="imagem" src="src/imagens/imagem-slider4.png" alt="Lago entre montanhas e pinheiros ">
+        </div>
+        <!-- <button type="button" class="seta retorno" ><img   src="src/imagens/seta esquerda .png" alt="seta de retorno do slider anterior"></button>
+        <button type="button" class="seta avanco" ><img  src="src/imagens/seta direita.png" alt="seta de avanço para o próximo slider"></button>  -->
+        <div class="botoes">
+            <input type="image" src="src/imagens/seta direita.png" class="seta avanco">
+            <input type="image" src="src/imagens/seta esquerda .png" class="seta retorno">
+
+        </div>
+        
         <div class="quadro">
             <div class="info">
                 <h1>Titulo imagem 1</h1>
@@ -25,5 +36,6 @@
         </div>
 
     </section>
+<script src="src/js/index.js"></script>    
 </body>
 </html>

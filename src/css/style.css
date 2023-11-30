@@ -1,4 +1,4 @@
-.imagem{
+.imagem.ativa{
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -6,9 +6,13 @@
     justify-content: center;
     align-items: center;
 }
+.imagem{
+    display: none;
+}
 
 .seta {
     display: flex;
+    top: 50vh;
     width: 49px;
     height: 79px;
     position: absolute;
@@ -24,6 +28,7 @@
 .quadro{
     display: flex;
     position: absolute;
+    bottom: 10vh;
     left: 18vh;
     width: 620px;
     height: 700px;
