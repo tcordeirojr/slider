@@ -3,39 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500&display=swap" rel="stylesheet">
     <title>Exercício Slider</title>
 </head>
 <body>
-    <section class="slider"> 
-        <div class="carrossel">
-            <img class="imagem ativa" src="src/imagens/imagem-slider1.png" alt="imagens de flores rosas com fundo azul">
-            <img class="imagem" src="src/imagens/imagem-slider2.png" alt="flores amarelas com fundo azul">
-            <img class="imagem" src="src/imagens/imagem-slider3.png" alt="por do sol na floresta">
-            <img class="imagem" src="src/imagens/imagem-slider4.png" alt="Lago entre montanhas e pinheiros ">
-        </div>
-        <!-- <button type="button" class="seta retorno" ><img   src="src/imagens/seta esquerda .png" alt="seta de retorno do slider anterior"></button>
-        <button type="button" class="seta avanco" ><img  src="src/imagens/seta direita.png" alt="seta de avanço para o próximo slider"></button>  -->
-        <div class="botoes">
-            <input type="image" src="src/imagens/seta direita.png" class="seta avanco">
-            <input type="image" src="src/imagens/seta esquerda .png" class="seta retorno">
+   <div class="imagens-slider">
+    <a href="#"  class="seta-voltar opacidade" id="seta-voltar">
+        <img class="imagem-seta" src="src/imagens/seta direita.png" alt="seta voltar"/>
+    </a>
 
-        </div>
-        
-        <div class="quadro">
-            <div class="info">
-                <h1>Titulo imagem 1</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, error ut corporis, sequi praesentium corrupti tenetur optio in culpa quasi eum cupiditate, cumque inventore facilis itaque autem deleniti rerum voluptatum Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illum cupiditate animi itaque repellendus, cum quisquam aspernatur perferendis sint recusandae.
-                </p>
-                <a href="#">Saiba mais</a>
-            </div>
-        </div>
+    <div class="slide slide-rosa mostrar">
+        <div class="conteudo">
+            <h2 class="titulo">Titulo Imagem 1</h2>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ipsam aspernatur sunt facere ratione fugiat quasi mollitia architecto magnam beatae quod vitae placeat laudantium optio, modi consequuntur molestias id. Ab Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum odit, temporibus dolorem hic aut unde alias doloremque possimus, facilis voluptas eveniet quia veniam cupiditate accusantium inventore, enim nulla nobis obcaecati.</p>
 
-    </section>
-<script src="src/js/index.js"></script>    
+            <a  class="botao rosa" href="#">Saiba Mais</a>
+        </div>
+    </div>
+
+    <div class="slide slide-verde">
+        <div class="conteudo">
+            <h2 class="titulo">Titulo Imagem 2</h2>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ipsam aspernatur sunt facere ratione fugiat quasi mollitia architecto magnam beatae quod vitae placeat laudantium optio, modi consequuntur molestias id. Ab Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum fugiat dolores possimus odio non hic voluptates consequuntur minus? Perspiciatis eveniet a sapiente ad. Magni, excepturi repellat? Nihil, voluptatum debitis.</p>
+
+            <a  class="botao verde" href="#">Saiba Mais</a>
+        </div>
+    </div>
+
+    <div class="slide slide-laranja">
+        <div class="conteudo">
+            <h2 class="titulo">Titulo Imagem 3</h2>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ipsam aspernatur sunt facere ratione fugiat quasi mollitia architecto magnam beatae quod vitae placeat laudantium optio, modi consequuntur molestias id. Ab Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque accusantium sunt ipsum eligendi. Qui, quia enim. Possimus, fuga rerum? Aliquid distinctio repellat adipisci laborum repudiandae quas nihil earum esse consequuntur!</p>
+
+            <a  class="botao laranja" href="#">Saiba Mais</a>
+        </div>
+    </div>
+
+    <div class="slide slide-azul">
+        <div class="conteudo">
+            <h2 class="titulo">Titulo Imagem 4</h2>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ipsam aspernatur sunt facere ratione fugiat quasi mollitia architecto magnam beatae quod vitae placeat laudantium optio, modi consequuntur molestias id. Ab Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque sed consequatur fuga molestiae voluptas hic tempore assumenda eos repellat. Repellat neque fuga dolores accusamus, ad in ratione aliquid maiores possimus!</p>
+
+            <a  class="botao azul" href="#">Saiba Mais</a>
+        </div>
+    </div>
+
+    <a href="#" class="seta-avancar" id="seta-avancar">
+        <img class="imagem-seta" src="src/imagens/seta direita.png" alt="seta avancar">
+    </a>
+   </div>
+<script  type="text/javascript" src="src/js/index.js"></script>    
 </body>
 </html>
